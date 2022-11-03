@@ -1,4 +1,4 @@
-/* Formats all elements on site */
+/* Universal Selector: Formats all elements on site */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +8,17 @@
 /* Sets background color of body */
 body {
     background-color: #d9dcd6;
+}
+
+/* Formats all anchor elements */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Formats all paragraph elements */
+p {
+    font-size: 16px;
 }
 
 /* Formats the top header of page */
@@ -25,11 +36,11 @@ header h1 {
 }
 
 /* Changes color of "seo" in main heading */
-header h1 #seo {
+#seo {
     color: #d9dcd6;
 }
 
-/* Formats and pushes navigation bar to the right on page */
+/* Formats and pushes navigation element to the right on page */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -48,18 +59,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* Formats all anchors that hyperlink */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* Formats all paragraph text */
-p {
-    font-size: 16px;
-}
-
-/* Formats "hero" section and adds background image */
+/* Formats section with "hero" ID and adds background image */
 #hero {
     height: 800px;
     width: 100%;
@@ -67,6 +67,34 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Formats main element */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Formats each section element inside main element */
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Formats image element in each section of main element */
+main section img {
+    max-height: 200px;
+}
+
+/* Formats h2 heading element in each section of main element */
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /* Pushes images of class "float-left" to the left */
@@ -81,13 +109,6 @@ p {
     margin-left: 25px;
 }
 
-/* Formats main element */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 /* Formats aside element */
 aside {
     margin-right: 20px;
@@ -100,44 +121,23 @@ aside {
     background-color: #2589bd;
 }
 
-/* Formats each section in the aside element */
+/* Formats each section element in the aside element */
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Formats each h3 heading in each section in aside element */
+/* Formats h3 heading element in each section in aside element */
 aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Formats images in each section in aside element */
+/* Formats image in each section in aside element */
 aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Formats each section inside main element */
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Formats all images in each section of main element */
-main section img {
-    max-height: 200px;
-}
-
-/* Formats all h2 headings in each section of main element */
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Formats footer element */
@@ -148,7 +148,7 @@ footer {
     text-align: center;
 }
 
-/* Formats h2 heading in footer element */
+/* Formats h2 heading element in footer element */
 footer h2 {
     font-size: 20px;
 }
