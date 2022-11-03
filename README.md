@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-Click on Website URL:
+Click on Website URL: https://avanimuchhala.github.io/Horiseon-Refactor-Accessibility/
 
 Click on the item in the top navigation bar to view the corresponding section on the site regarding Horiseon's services. Refer to the notes on the right side of the site for other benefits of Horiseon's services.
 
